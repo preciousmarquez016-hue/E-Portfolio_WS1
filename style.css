@@ -1,4 +1,4 @@
-/* --- General Reset & Fonts --- */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ body {
     padding: 20px;
 }
 
-/* --- Container Layout --- */
+
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -23,7 +23,7 @@ body {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 
-/* --- Navigation --- */
+
 nav {
     display: flex;
     justify-content: center;
@@ -70,26 +70,25 @@ header h3 {
     margin-top: 5px;
 }
 
-/* --- Content Sections (About, Skills, Project, Contact) --- */
 .About\ me, .Skills, #Project, #Contact {
     margin-bottom: 40px;
     padding-bottom: 20px;
     border-bottom: 1px solid #eee;
 }
 
-/* Typography for Section Headings */
+
 h1, h3 {
     color: #333;
     margin-bottom: 15px;
 }
 
-/* Section Specific Tweaks */
+
 p {
     margin-bottom: 10px;
     color: #555;
 }
 
-/* Skills List styling */
+
 ul {
     list-style-position: inside;
     margin-left: 10px;
@@ -100,7 +99,7 @@ ul li {
     color: #555;
 }
 
-/* --- Footer --- */
+
 footer {
     text-align: center;
     font-size: 0.9rem;
