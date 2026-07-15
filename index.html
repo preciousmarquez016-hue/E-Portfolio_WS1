@@ -1,77 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
 </head>
+
 <body>
-    <header>
-        <img src="chin.jpg" alt="logo">
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About me</a>
-            <a href="#skills">Skills</a>
-            <a href="#project">Project</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
 
-
-    <div>
-        <section id="about">
-            <div>
-                <img src="chin.jpg" alt="profile">
-                <div><h3>Precious B. Marquez</h3></div>
-                <div><h3>BACHELOR SCIENCE INFORMATION TECHNOLOGY</h3></div>
-                <div><h3>Trust your Journey</h3></div>
+<header>
+    <div class="logo">
+        <img src="chin.jpg" alt="Profile">
     </div>
-    <div>
-        <h1>About me</h1>
-        <p>Hi i am Precious Marquez 20 years old i live in Prk. Andam Liwanay, Bo.1, Banga SOUTH COTABATO. My favorite Color is Purple and my hubby is playing Valley Ball.
-              current studying BACHELOR SCIENCE INFORMATION TECHNOLOGY in HOLY CHILD CENTRAL COLLEGE INC. My goal in life is to have a profesional work and to success </p>
-        <p>Elementary: Surallah Central Elementary School libertad</p>
-        <p>Senior High: Libertad National High School</p>
-        <p> Testda:NCII Passer</p>
-        <p>College:HOLY CHILD CENTRAL COLLEGE INC </p>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about" class="about">
+    <div class="about-image">
+        <img src="chin.jpg" alt="Profile">
+    </div>
+
+    <div class="about-text">
+        <h1>Precious B. Marquez</h1>
+        <h3>Bachelor of Science in Information Technology</h3>
+        <p><b>Trust your Journey</b></p>
+
+        <h2>About Me</h2>
+
+        <p>
+            Hi! I am Precious B. Marquez, 20 years old, from Prk. Andam,
+            Liwanay, Bo.1, Banga, South Cotabato. I am currently studying
+            Bachelor of Science in Information Technology at Holy Child
+            Central Colleges, Inc. I enjoy learning about technology and
+            creating simple websites. My goal is to become a successful IT
+            professional.
+        </p>
+
+        <p><b>Elementary:</b> Surallah Central Elementary School</p>
+        <p><b>Senior High:</b> Libertad National High School</p>
+        <p><b>TESDA:</b> NC II Passer</p>
+        <p><b>College:</b> Holy Child Central Colleges, Inc.</p>
 
     </div>
 </section>
+
 <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-        <li>Canva </li>
-        <li>Networking</li>
-        <li>Microsoft Office</li>
 
-    </ul>
+<h2>My Skills</h2>
+
+<div class="skills-container">
+
+<div class="skill-card">HTML</div>
+<div class="skill-card">CSS</div>
+<div class="skill-card">Canva</div>
+<div class="skill-card">Networking</div>
+<div class="skill-card">Microsoft Office</div>
+<div class="skill-card">Communication</div>
+
+</div>
 
 </section>
 
+<section id="projects">
 
+<h2>My Projects</h2>
 
-    <section id="Project">
-        <h3>Project</h3>
-        <p>computer Repair Management</p>
-     
+<div class="project-container">
 
-    </section> 
-    <Section id="Contact">
-        <h1>Contact</h1>
-        <p>Email Adress: pbmarquez2024@hccci.edu.ph</p>
-        <p>Phone Number: 09702264070</p>
-        <p>Facebook: Precious Marquez</p>
-    </Section>
+<div class="project-card">
+<img src="chin.jpg" alt="">
+<h3>Computer Repair Management</h3>
+<p>A simple system for managing computer repair services.</p>
+<button>View Project</button>
+</div>
 
-    </div
-    <footer>&copy; @ 2026 PRECIOUS B. MARQUEZ. All Right Reserved.</footer>
+<div class="project-card">
+<img src="chin.jpg" alt="">
+<h3>Portfolio Website</h3>
+<p>A personal portfolio made using HTML and CSS.</p>
+<button>View Project</button>
+</div>
 
-    
+<div class="project-card">
+<img src="chin.jpg" alt="">
+<h3>Student Record</h3>
+<p>A simple student information management project.</p>
+<button>View Project</button>
+</div>
 
+</div>
 
+</section>
 
+<section id="contact">
 
-    
+<h2>Contact</h2>
+
+<p>Email: pbmarquez2024@hccci.edu.ph</p>
+<p>Phone: 09702264070</p>
+<p>Facebook: Precious Marquez</p>
+
+</section>
+
+<footer>
+&copy; 2026 Precious B. Marquez. All Rights Reserved.
+</footer>
+
 </body>
 </html>
