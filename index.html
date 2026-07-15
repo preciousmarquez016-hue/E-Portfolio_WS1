@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Portfolio</title>
-<link rel="stylesheet" href="style.css">
-<script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
+
     <div class="logo">
         <img src="chin.jpg" alt="Profile">
     </div>
@@ -21,16 +21,21 @@
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
     </nav>
+
 </header>
 
 <section id="about" class="about">
+
     <div class="about-image">
         <img src="chin.jpg" alt="Profile">
     </div>
 
     <div class="about-text">
-        <h1>Precious B. Marquez</h1>
+
+        <h1 id="title">Precious B. Marquez</h1>
+
         <h3>Bachelor of Science in Information Technology</h3>
+
         <p><b>Trust your Journey</b></p>
 
         <h2>About Me</h2>
@@ -39,80 +44,111 @@
             Hi! I am Precious B. Marquez, 20 years old, from Prk. Andam,
             Liwanay, Bo.1, Banga, South Cotabato. I am currently studying
             Bachelor of Science in Information Technology at Holy Child
-            Central Colleges, Inc. I enjoy learning about technology and
-            creating simple websites. My goal is to become a successful IT
-            professional.
+            Central Colleges Inc. I enjoy learning about technology,
+            designing websites, and improving my programming skills.
+            My goal is to become a successful IT professional.
         </p>
 
         <p><b>Elementary:</b> Surallah Central Elementary School</p>
         <p><b>Senior High:</b> Libertad National High School</p>
         <p><b>TESDA:</b> NC II Passer</p>
-        <p><b>College:</b> Holy Child Central Colleges, Inc.</p>
+        <p><b>College:</b> Holy Child Central Colleges Inc.</p>
+<div class="buttons">
+    <button onclick="showInfo()">Show My Information</button>
+</div>
 
     </div>
+
 </section>
 
 <section id="skills">
 
-<h2>My Skills</h2>
+    <h2>My Skills</h2>
 
-<div class="skills-container">
+    <div class="skills-container">
 
-<div class="skill-card">HTML</div>
-<div class="skill-card">CSS</div>
-<div class="skill-card">Canva</div>
-<div class="skill-card">Networking</div>
-<div class="skill-card">Microsoft Office</div>
-<div class="skill-card">Communication</div>
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">Canva</div>
+        <div class="skill-card">Networking</div>
+        <div class="skill-card">Microsoft Office</div>
 
-</div>
+    </div>
 
 </section>
 
 <section id="projects">
 
-<h2>My Projects</h2>
+    <h2>My Projects</h2>
 
-<div class="project-container">
+    <div class="project-container">
 
-<div class="project-card">
-<img src="chin.jpg" alt="">
-<h3>Computer Repair Management</h3>
-<p>A simple system for managing computer repair services.</p>
-<button>View Project</button>
-</div>
+        <div class="project-card">
 
-<div class="project-card">
-<img src="chin.jpg" alt="">
-<h3>Portfolio Website</h3>
-<p>A personal portfolio made using HTML and CSS.</p>
-<button>View Project</button>
-</div>
+            <img src="chin.jpg" alt="Project">
 
-<div class="project-card">
-<img src="chin.jpg" alt="">
-<h3>Student Record</h3>
-<p>A simple student information management project.</p>
-<button>View Project</button>
-</div>
+            <h3>Computer Repair Management</h3>
 
-</div>
+            <p>
+                A simple repair management system created for school.
+            </p>
+
+            <button>View Project</button>
+
+        </div>
+
+        <div class="project-card">
+
+            <img src="chin.jpg" alt="Project">
+
+            <h3>Portfolio Website</h3>
+
+            <p>
+                My personal responsive portfolio using HTML, CSS and JavaScript.
+            </p>
+
+            <button>View Project</button>
+
+        </div>
+
+        <div class="project-card">
+
+            <img src="chin.jpg" alt="Project">
+
+            <h3>Student Record System</h3>
+
+            <p>
+                A basic student information management project.
+            </p>
+
+            <button>View Project</button>
+
+        </div>
+
+    </div>
 
 </section>
 
 <section id="contact">
 
-<h2>Contact</h2>
+    <h2>Contact</h2>
 
-<p>Email: pbmarquez2024@hccci.edu.ph</p>
-<p>Phone: 09702264070</p>
-<p>Facebook: Precious Marquez</p>
+    <p>Email: pbmarquez2024@hccci.edu.ph</p>
+
+    <p>Phone: 09702264070</p>
+
+    <p>Facebook: Precious Marquez</p>
 
 </section>
 
-<footer>
-&copy; 2026 Precious B. Marquez. All Rights Reserved.
+<footer id="footer">
+
+    &copy; 2026 Precious B. Marquez. All Rights Reserved.
+
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
