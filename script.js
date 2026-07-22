@@ -15,12 +15,24 @@ window.onload = function () {
     console.log("Page loaded.");
 
 };
+let darkmode = false;
 
 function changeTheme() {
+    if(!darkmode){
+        document.body.style.backgroundColor ="#3c074d";
+        document.body.style.color = "white";
+        darkmode = true;
+        console.log("Dark Mode Enable");
+    }else{
+        document.body.style.backgroundColor ="black";
+        document.body.style.color = "purple";
+        darkmode = false
+        console.log("Lightmode Enable");
 
-    document.body.classList.toggle("dark");
+        
 
-    console.log("Theme changed.");
+    }
+
 
 }
 
